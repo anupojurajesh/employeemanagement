@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#ececec;
+  color: #212121;
+  height: 700px;
+  flex-direction: column;
+}
+
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-form label{
+  color:#212121 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px !important;
+}
+
+.form-main{
+  width: 400px;
+    margin: auto;
+    padding: 36px 48px 48px 48px;
+    background-color: #fafafa;
+    border-radius: 11px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+.form-head{
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url] {
+  font-size: 14px !important;
+}
+.aempbtn{
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: black;
+  background-color: #fff200;
+  padding: 15px 20px;
+  margin: 50px 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.emplisthead{
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.ui.button {
+  background: #43A047 !important;
+    color: #ffffff !important ;
+}
